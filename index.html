@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-  <title>for kirti</title>
+  <title>for khushi</title>
   <style>
     * {
       margin: 0;
@@ -17,18 +17,6 @@
       font-family: system-ui, -apple-system, sans-serif;
       background: #ffebee;
       color: #333;
-      position: relative;
-    }
-
-    .container {
-      height: 100%;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 20px;
       position: relative;
     }
 
@@ -137,14 +125,14 @@
 </head>
 <body>
 
-  <div class="credit">made by @smss1708 for kirti ♡</div>
+  <div class="credit">made by @smss1708 for khushi ♡</div>
 
   <audio id="music" loop>
     <source src="tere-liye.mp3" type="audio/mpeg">
   </audio>
 
   <div id="p1" class="page active">
-    <h1>hi kirti 😊</h1>
+    <h1>hi khushi 😊</h1>
     <p class="small">i made this little thing just to make you smile</p>
     <button class="btn" onclick="next(1)">next →</button>
   </div>
@@ -168,7 +156,7 @@
   </div>
 
   <div id="p5" class="page">
-    <h1>nice meeting you kirti</h1>
+    <h1>nice meeting you khushi</h1>
     <p class="small">hope this made your day a little brighter ✨</p>
   </div>
 
@@ -198,10 +186,9 @@
       for (let i = 0; i < 6; i++) {   // 6 balloons each time
         let b = document.createElement("div");
         b.className = "balloon";
-        b.innerHTML = "🎈<span>kirti</span>";
+        b.innerHTML = "🎈<span>khushi</span>";
         b.style.left = (5 + Math.random() * 90) + "%";
         b.style.animationDelay = (Math.random() * 1.5) + "s";
-        // random slight horizontal movement
         b.style.animation = `riseAndPop ${7 + Math.random()*4}s linear forwards`;
         document.body.appendChild(b);
 
